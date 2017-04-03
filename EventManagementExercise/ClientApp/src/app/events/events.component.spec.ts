@@ -1,1 +1,25 @@
-"Wed Mar 29 2017 05:53:00 GMT-0700 (Pacific Daylight Time)" 
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { EventsComponent } from './events.component';
+
+describe('EventsComponent', () => {
+  let component: EventsComponent;
+  let fixture: ComponentFixture<EventsComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ EventsComponent ]
+    })
+    .compileComponents();
+  });
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(EventsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});

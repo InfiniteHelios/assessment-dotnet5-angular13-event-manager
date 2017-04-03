@@ -1,1 +1,4 @@
-"Thu Mar 30 2017 06:41:00 GMT-0700 (Pacific Daylight Time)" 
+export interface Allergy {
+  id?: number;
+  name: string;
+}

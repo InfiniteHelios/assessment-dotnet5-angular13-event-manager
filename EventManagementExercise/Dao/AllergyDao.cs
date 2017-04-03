@@ -1,1 +1,8 @@
-"Fri Mar 24 2017 22:29:00 GMT-0700 (Pacific Daylight Time)" 
+namespace EventManagementExercise.Dao
+{
+  public class AllergyDao
+  {
+    public int? Id { get; set; }
+    public string Name { get; set; }
+  }
+}

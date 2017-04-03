@@ -1,1 +1,13 @@
-"Fri Mar 31 2017 14:03:00 GMT-0700 (Pacific Daylight Time)" 
+import { Component, OnInit } from '@angular/core';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
+
+@Component({
+  selector: 'app-confirm-modal',
+  templateUrl: './confirm-modal.component.html',
+  styleUrls: ['./confirm-modal.component.scss'],
+})
+export class ConfirmModalComponent implements OnInit {
+  constructor(public modal: NgbActiveModal) { }
+
+  ngOnInit(): void { }
+}
